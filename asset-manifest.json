@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/OLet/static/css/main.edf7f6b1.css",
+    "main.js": "/OLet/static/js/main.5b2c55b1.js",
+    "static/js/787.476b2ddc.chunk.js": "/OLet/static/js/787.476b2ddc.chunk.js",
+    "static/media/success-removebg-preview.png": "/OLet/static/media/success-removebg-preview.6bfa59f41efa0d3acad2.png",
+    "static/media/banner.png": "/OLet/static/media/banner.95b716c834c0684c98bb.png",
+    "index.html": "/OLet/index.html",
+    "main.edf7f6b1.css.map": "/OLet/static/css/main.edf7f6b1.css.map",
+    "main.5b2c55b1.js.map": "/OLet/static/js/main.5b2c55b1.js.map",
+    "787.476b2ddc.chunk.js.map": "/OLet/static/js/787.476b2ddc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edf7f6b1.css",
+    "static/js/main.5b2c55b1.js"
+  ]
+}
