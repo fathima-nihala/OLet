@@ -1,0 +1,24 @@
+.women-cntnt{
+    padding-top:70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.wo-link{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 373px) {
+    .women-cntnt{
+        display: block;
+        margin-left: 40px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .women-cntnt{
+        grid-template-columns: 1fr 1fr; /* Adjust grid columns for smaller screens */
+        margin-left: 0; /* Remove left margin for better alignment */
+        padding: 20px;
+    }
+
+}

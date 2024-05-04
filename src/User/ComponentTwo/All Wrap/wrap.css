@@ -1,0 +1,44 @@
+.wrap{
+    width: 290px;
+    margin-left: 15px;
+}
+.wrap:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.wrap-h{
+    color: rgb(207, 159, 96);
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.wrap-d{
+    margin: 6px 3px;
+    margin-left: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wrap-prices{
+    display: flex;
+    gap: 20px;
+    margin-left: 30px; 
+}
+.new-wrap{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.old-wrap{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.wrap img{
+    width: 250px;
+    height: 290px;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.ru{
+    color:   rgb(230, 8, 156);
+}

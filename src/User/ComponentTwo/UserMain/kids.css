@@ -1,0 +1,24 @@
+.kids-cntnt{
+    padding-top:70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.ki-link{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 373px) {
+    .kids-cntnt{
+        display: block;
+        margin-left: 40px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .kids-cntnt{
+        grid-template-columns: 1fr 1fr; /* Adjust grid columns for smaller screens */
+        margin-left: 0; /* Remove left margin for better alignment */
+        padding: 20px;
+    }
+
+}

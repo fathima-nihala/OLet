@@ -1,0 +1,73 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 0 30px;
+    background-color: rgb(249, 206, 235);
+    height: 290px;
+
+}
+.ban-h{
+    font-size: 30px;
+    font-weight: 500;
+}
+.ban-h-c{
+    color: rgb(230, 8, 156);
+}
+.ban-p{
+    font-size: 24px;
+}
+.ban-btn{
+    height: 40px;
+    width: 99px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(230, 8, 156) ;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.ban-btn:hover{
+   background-color: rgb(167, 167, 167);
+}
+.ban-btn-link{
+    text-decoration: none;
+    color: white;
+}
+
+.ban-right img{
+    margin-left: 90px;
+}
+/* @media screen and (max-width:620px){
+    .ban-lft{
+        visibility: hidden;
+    }
+} */
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ban-right img {
+        margin-left: 0; /* Reset margin */
+        margin-top: 20px; /* Add some margin for spacing */
+    }
+
+    .ban-h {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        text-align: center; /* Center align heading */
+    }
+
+    .ban-p {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        text-align: center; /* Center align paragraph */
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .ban-lft {
+        display: none; /* Hide left content for screens below 620px width */
+    }
+}

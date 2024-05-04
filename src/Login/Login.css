@@ -1,0 +1,219 @@
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  &:hover,
+  &:active {
+    .top,
+    .bottom {
+      &:before,
+      &:after {
+        margin-left: 200px;
+        transform-origin: -200px 50%;
+        transition-delay: 0s;
+      }
+    }
+
+    .center {
+      opacity: 1;
+      transition-delay: 0.2s;
+    }
+  }
+}
+
+.top,
+.bottom {
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 200vmax;
+    height: 200vmax;
+    top: 50%;
+    left: 50%;
+    margin-top: -100vmax;
+    transform-origin: 0 50%;
+    transition: all 0.5s cubic-bezier(0.445, 0.05, 0, 1);
+    z-index: 10;
+    opacity: 0.65;
+    transition-delay: 0.2s;
+  }
+}
+
+.top {
+  &:before {
+    transform: rotate(45deg);
+    background: #682828;
+  }
+  &:after {
+    transform: rotate(135deg);
+    background: #110a04;
+  }
+}
+
+.bottom {
+  &:before {
+    transform: rotate(-45deg);
+    background: #000000;
+  }
+  &:after {
+    transform: rotate(-135deg);
+    background: #37383f;
+  }
+}
+
+.center {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.445, 0.05, 0, 1);
+  transition-delay: 0s;
+  color: #333;
+
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 1px;
+    border: 1px solid #565656;
+    font-family: inherit;
+  }
+}
+.end{
+    height: 35px;
+    width: 150px;
+    background-color: #18130d;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.end-para{
+    font-size: 12px;
+}
+.end-link{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 14px;
+    font-family: inherit;
+} */
+
+
+
+
+.login{
+  /* background-color: #98e5dd; */
+  width: 100%;
+  height: 100vh;
+}
+.log-main{
+  display: flex;
+  justify-content: center;
+}
+.log-main-one{
+  background-color: white;
+ margin-top: 50px;
+ border: 6px solid rgb(243, 236, 224);
+ height: 400px;
+ margin-right: 40px;
+ width: 350px;
+
+
+}
+.log-head{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  height: auto;
+ 
+}
+.log-head h4{
+  border-bottom: 1px solid rgb(243, 236, 224);
+  font-size: 24px;
+  font-family: inherit;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.log-body{
+  display: flex;
+  justify-content: center;
+}
+
+.log-body-cntnt{
+  padding: 6px;
+  margin-top: 10px;
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(236, 234, 234);
+}
+.log-icon{
+  height: 12px;
+}
+.log-body-cntnt input{
+   border: none;
+   margin-left: 3px;
+  outline: none;
+
+}
+.log-frgt{
+  margin-left: 140px;
+}
+.log-btn{
+   border-radius: 5px;
+   margin-top: 10px;
+   height: 35px;
+   width: 260px;
+   border: 1px solid rgb(236, 234, 234);
+   background-color:  rgb(230, 8, 156);
+   cursor: pointer;
+}
+.log-btn:hover{
+  background-color: rgb(129, 127, 127);
+}
+.log-btn button{
+  border: none;
+  background: none;
+  margin-left: 105px;
+  margin-top: 8px;
+  color: white;
+}
+.log-para{
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.log-link{
+  text-decoration: none;
+}
+.frgt{
+  text-decoration: none;
+  color: gray;
+}
+.frgt:hover{
+  color: blueviolet;
+}

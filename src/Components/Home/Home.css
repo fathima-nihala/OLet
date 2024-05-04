@@ -1,0 +1,189 @@
+.home{
+     margin-top: 60px;
+}
+.main-dash{
+    width: 100%;
+    height: 650px;
+    padding: 10px 15px;
+}
+.head-title{
+    margin-left: 20px;
+}
+.left-one{
+    display: flex;
+}
+.left-p{
+    margin-top: 2px;
+    color: silver;
+    margin-left: 4px;
+}
+.left-arrows{
+    margin-left: 8px;
+}
+.arrow{
+    margin-top: 22px;
+    color: blue;
+}
+/* .a-div{
+
+} */
+.atag {
+    text-decoration: none;
+    margin-left: 29px;
+    margin-top: 20px;
+    color: rgb(17, 17, 144);
+
+    
+}
+.right-icon{
+    margin-left: 600px;
+    border: 1px solid silver;
+    height: 22px;
+   padding: 6px 9px;
+   border-radius: 10px;
+   background-color: blue;
+   color: white;
+}
+
+/* ---------------------box-info------------------------------- */
+.main-box{
+  display: flex;
+  margin-top: 80px;
+}
+.order{
+    display: flex;
+    width: 220px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.order-icon{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: rgb(8, 70, 240);
+    border-radius: 4px;
+    height: 19px;
+    width: 22px;
+    padding: 10px 19px;
+    background: rgb(122, 162, 255);
+}
+.order-contents{
+    margin-left: 30px;
+}
+.order-contents h3{
+    margin-left: 17px;
+}
+
+.visitors{
+    display: flex;
+    /* border: 1px solid whitesmoke ; */
+    width: 220px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 50px;
+
+    /* margin-top: 10px; */
+}
+.visitors-icon{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 19px;
+    width: 22px;
+    padding: 10px 19px;
+    color: yellow;
+    background: rgb(253, 253, 220);
+    border-radius: 4px;
+}
+.visiters-contents{
+    margin-left: 30px;
+}
+.visiters-contents h3{
+    margin-left: 6px;
+
+}
+
+.sales{
+    display: flex;
+    width: 220px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 50px;
+
+}
+
+.sale-icon{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 19px;
+    width: 22px;
+    padding: 10px 18px;
+    border-radius: 4px;
+    background: rgb(252, 175, 146);
+    color: rgb(251, 91, 33);
+}
+.sale-contents{
+    margin-left: 30px;
+
+}
+.sale-contents h3{
+    margin-left: 14px;
+}
+.monthl-report{
+    display: flex;
+}
+.report1 {
+    width: 260px;
+    margin-top: 30px;
+    background: rgb(255, 242, 242);
+
+}
+.report1 h3{
+    margin-left: 10px;
+}
+.report1 details{
+    margin-left: 10px;
+}
+.report1 p{
+    margin-left: 10px;
+
+}
+.report2{
+    width: 260px;
+    margin-top: 30px;
+    margin-left: 12px;
+    background: rgb(255, 242, 242);
+
+
+}
+.report2 h3 {
+    margin-left: 10px;
+
+}
+.report2 details{
+    margin-left: 10px;
+    
+}
+.report2 p{
+    margin-left: 10px;
+
+}
+details h1{
+    color: rgb(249, 24, 24);
+}
+.report3{
+    width: 260px;
+    background: rgb(255, 242, 242);
+    margin-top: 30px;
+    margin-left: 13px;
+
+}
+.report3 h3{
+    margin-left: 10px;
+
+}
+.report3 details{
+    margin-left: 10px;
+}
+.report3 p{
+    margin-left: 10px;
+
+}

@@ -1,0 +1,84 @@
+.ad-im{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.ad-im{
+   margin-top: 40px;
+   padding: 3px;
+}
+
+.ad-im img{
+   border: 1px solid  gray;
+   height: 160px;
+   width:160px;
+   border-radius: 50%;
+   object-fit:cover;
+}
+.pro-name{
+   font-size: 22px;
+   font-family: initial;
+   font-weight: 500px;
+}
+
+.pro-mail{
+   font-size: 22px;
+   font-family: initial;
+}
+
+.prof-btn{
+   width: 200px;
+   height: 40px;
+   border: none;
+   color: white;
+   background-color:  rgb(230, 8, 156) ;
+   font-size: 18px;
+   font-family: initial;
+   letter-spacing: 1px;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-left: 60px;
+}
+
+.prof-btn:hover{
+   background-color: rgb(167, 167, 167);
+}
+
+.upadmin-link{
+   text-decoration: none;
+   color: white;
+}
+
+.prof-inp{
+   padding: 10px 10px;
+   border: 1px solid rgb(210, 205, 205);
+   margin-top: 30px;
+   height: 20px;
+   border-radius: 5px;
+}
+
+.prof-inp input{
+   height: 20px;
+   width: 280px;
+   font-size: 16px;
+   border: none;
+   outline: none;
+}
+
+.prof-img{
+   padding: 20px;
+}
+
+.prof-img input{
+   width: 300px;
+   height: 50px;
+}
+
+.prof-updt-p{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 28px;
+}

@@ -1,0 +1,145 @@
+.register{
+    /* background-color: #98e5dd; */
+    width: 100%;
+    height: 100vh;
+
+}
+.reg-main{
+    display: flex;
+    justify-content: center;
+
+}
+.reg-main-one{
+    background-color: white;
+   margin-top: 50px;
+   border: 6px solid rgb(243, 236, 224);
+   height: 400px;
+   margin-right: 40px;
+   width: 350px;
+
+
+}
+.reg-head{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    height: auto;
+   
+}
+.reg-head h4{
+    border-bottom: 1px solid rgb(243, 236, 224);
+    font-size: 24px;
+    font-family: inherit;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.reg-body{
+    display: flex;
+    justify-content: center;
+}
+
+.reg-body-cntnt{
+    padding: 6px;
+    margin-top: 10px;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(236, 234, 234);
+}
+.reg-icon{
+   height: 12px;
+}
+.reg-body-cntnt input{
+    border: none;
+    margin-left: 3px;
+    outline: none;
+}
+.reg-btn{
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 35px;
+    width: 260px;
+    border: 1px solid rgb(236, 234, 234);
+    background-color:  rgb(230, 8, 156);
+    cursor: pointer;
+}
+.reg-btn:hover{
+  background-color: rgb(129, 127, 127);
+}
+.reg-btn button{
+    border: none;
+    background: none;
+    margin-left: 70px;
+    margin-top: 8px;
+    color: white;
+}
+.reg-para{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.reg-link{
+    text-decoration: none;
+}
+.reg-body-img{
+    margin-top: 10px;
+}
+.goback{
+    /* color: white; */
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+    margin-left: 1200px;
+    color: black;
+    cursor: pointer;
+  }
+
+  /* ********************FORGET PSSWORD******** */
+  .reg-body-cntnt-forg{
+    padding: 6px;
+    margin-top: 10px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(236, 234, 234);
+  }
+  .reg-body-cntnt-forg input{
+    border: none;
+    margin-left: 3px;
+    outline: none;
+  }
+  .reg-btn-forg{
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 39px;
+    width: 260px;
+    border: 1px solid rgb(236, 234, 234);
+    background-color:  rgb(230, 8, 156);
+    cursor: pointer;
+  }
+  .reg-btn-forg button{
+    border: none;
+    background: none;
+    margin-left: 70px;
+    margin-top: 8px;
+    color: white;
+  } 
+  .reg-btn-forg:hover{
+  background-color: rgb(129, 127, 127);
+
+  }
+  .submit-forgt{
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 39px;
+    width: 260px;
+    border: 1px solid rgb(236, 234, 234);
+    background-color:  rgb(230, 8, 156);
+    cursor: pointer;
+  }
+  .submit-forgt button{
+    border: none;
+    background: none;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+  }

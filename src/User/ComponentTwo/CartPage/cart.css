@@ -1,0 +1,126 @@
+
+ .cartitems{
+    display: flex;
+     margin: 10px 10px; 
+}
+
+.cartitems-formate-cartitems-formate-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(244, 244, 244);
+    margin-top: 10px;
+    width: 1000px;
+}
+.carticon-product-icon{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    margin: 0px 5px;
+    border-radius: 8px;
+
+} 
+.add-btn{
+    width: 40px;
+}
+.cartitems-quantity{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+}
+/* .rmv-btn{
+    width: 70px;
+    cursor: pointer;
+    color: red ;
+} */
+.tottal__amount_container{
+    box-shadow: 0px 1px 1px 1px lightgray;
+    position: fixed;
+    margin-top: 70px;
+    right: 20px;
+    width: 300px;
+    border-radius: 8px;
+} 
+.sum-cart{
+    color: gray;
+    padding-left: 10px;
+    display: flex;
+    gap: 100px;
+}
+.total-amnt{
+    color: red;
+    margin-left: 70px;
+    padding: 10px;
+}
+.proceed-btn{
+    margin-bottom: 10px;
+    margin-left: 46px;
+    height: 32px;
+    color: white;
+    background-color:  rgb(230, 8, 156);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.proceed-btn:hover{
+    background-color: rgb(167, 167, 167);
+}
+.rtrn{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.rtrn-link{
+    text-decoration: none;
+    color: rgb(230, 8, 156) ;   
+}
+.pay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tot{
+    display: flex;
+}
+.cart-buy{
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    background-color:red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.cart-buy:hover{
+    background-color: rgb(167, 167, 167);
+}
+.proceed-btn-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cartitems-formate-cartitems-formate-main {
+        /* max-width: 90%; Adjusted max-width for smaller screens */
+        /* margin-left: 0;   */
+        display: block;
+        width: 100px;
+    }
+
+    
+}
+@media only screen and (max-width: 563px) {
+    .cartitems{
+        display: block;
+    }
+}
+@media only screen and (max-width: 1115px) {
+    .cartitems-formate-cartitems-formate-main{
+        width: 600px;
+    }
+}

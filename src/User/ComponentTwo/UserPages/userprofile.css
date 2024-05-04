@@ -1,0 +1,100 @@
+.us-im{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .us-im{
+    margin-top: 40px;
+    padding: 3px;
+ }
+ .Profileuser{
+   border: 1px solid  rgb(238, 202, 202);
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+    object-fit:cover;
+ }
+ .user-prof-data{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .prouser-name{
+    font-size: 22px;
+    font-family: initial;
+    font-weight: 500px;
+ }
+ .prouser-mail{
+    font-size: 22px;
+    font-family: initial;
+    margin-bottom: 30px;
+ }
+ .profuser-btn{
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color:  rgb(230, 8, 156) ;
+    font-size: 18px;
+    font-family: initial;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .profuser-btn:hover{
+    background-color: rgb(167, 167, 167);
+ }
+ .profuser-outbtn{
+    height: 40px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color:  rgb(135, 227, 181) ;
+    font-size: 18px;
+    font-family: initial;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .profuser-outbtn:hover{
+    background-color: rgb(167, 167, 167);
+ }
+ .upadmin-link{
+    text-decoration: none;
+    color: white;
+ }
+ .prof-btn-uu{
+   height: 40px;
+   width: 200px;
+   margin-bottom: 10px;
+   border: none;
+   color: white;
+   background-color:  rgb(230, 8, 156) ;
+   font-size: 18px;
+   font-family: initial;
+   letter-spacing: 1px;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ .prof-btn-uu:hover{
+   background-color: rgb(167, 167, 167);
+ }
+ .prof-inp-user{
+   padding: 10px 10px;
+   border: 1px solid rgb(210, 205, 205);
+   margin-top: 30px;
+   height: 20px;
+   width: 300px;
+   margin-left: 10px;
+   border-radius: 5px;
+ }
+ .prof-inp-user input{
+   height: 20px;
+   width: 280px;
+   font-size: 16px;
+   border: none;
+   outline: none;
+ }

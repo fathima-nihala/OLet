@@ -1,0 +1,17 @@
+.order-main{
+    margin-top: 70px;
+}
+.order-admin{
+    display: flex;
+    background-color: hwb(0 96% 4%);
+}
+.order-admin-right-block{
+    display: flex;
+}
+.order-span {
+    font-size: 17px;
+    color: rgb(147, 144, 144);
+}
+.order-admin-right-block P{
+    margin-left: 11px;
+}

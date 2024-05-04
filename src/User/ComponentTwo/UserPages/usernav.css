@@ -1,0 +1,215 @@
+.usrnavbar{
+    display: flex;
+    width: 100%;
+    background: white;
+    justify-content: space-between;
+    height: 49px;
+    /* position: fixed; */
+    z-index: 50;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 10px 10px rgba(214, 103, 196, 0.1); /* Example shadow, adjust as needed */
+    background-color: #ffffff; /* Example background color, adjust as needed */
+    transition: all 0.3s ease-in-out;
+}
+.usrnav-logo{
+    margin-top: 9px;
+    margin-left: 40px;
+}
+.usrnav-logo-one{
+    font-size: 29px;
+    color: white;
+    background-color: rgb(230, 8, 156);
+    border-radius: 5px;
+    font-weight: 600;
+}
+.usrnav-logo-two{
+    font-size: 26px;
+    color: rgb(230, 8, 156);
+    border-radius: 2px;   
+}
+
+.usrnavbar-center{
+    display: flex;
+    margin-bottom: 10px;
+}
+.usrmenu{
+    display: flex;   
+}
+.usrmenu li{
+    display: inline;
+    margin: 0px 12px;
+}
+.usrmenu a:hover{
+    background: rgb(228, 225, 225);
+    border-radius: 5px;
+}
+
+.usrp-2{
+    margin-top: 0.75rem;
+    z-index: 1;
+    padding: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    font-size: 0.875rem;
+    position: absolute;
+    background-color: #f9fafb; /* Change the background color as needed */
+    border-radius: 0.375rem; /* You may adjust the border-radius as needed */
+    width: 3rem; 
+    border-radius: 0.375rem; 
+    width: 13rem; 
+}
+/* .usrp-2 li:hover{
+    color: rgb(230, 8, 156);
+    cursor: pointer;
+} */
+.nav-link{
+    text-decoration: none;
+    color: #333;
+}
+.nav-link:hover{
+    color: rgb(230, 8, 156);
+    cursor: pointer;
+}
+.usrnav-search{
+    margin-top: 14px;
+    background-color:whitesmoke;
+    height: 26px;
+    width: 230px;
+    border-radius: 5px;    
+}
+.usrnav-search input{
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color:  whitesmoke;
+}
+.usrnavbar-end{
+    display: flex;
+    /* margin-top: 15px; */
+    justify-content: space-between;
+}
+
+.usrnav-end-one{
+    margin-right: 30px;
+}
+.usrnav-end-two{
+    margin-right: 60px;
+
+}
+.usrusernav-ico:hover{
+    background-color: rgb(228, 225, 225);
+    border-radius: 5px;
+}
+
+.usernav-ico{
+    height: 25px;
+    width: 40px;
+    margin-top: 15px;
+}
+.usernav-ico2{
+    border: 1px solid rgb(233, 181, 215);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top:6px;
+    object-fit: contain;
+
+}
+/* dropdown */
+.usrnav-end-one {
+    position: relative;
+    /* margin-bottom: 70px; */
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; /* Change the background color as needed */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    border-radius: 0.375rem; /* You may adjust the border-radius as needed */
+    width: 120px; /* Change the width as needed */
+    padding: 0.5rem; /* p-2 */
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1); /* shadow */
+   
+}
+
+.usrnav-end-one:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content Link{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #333; 
+    border-radius: 15px;/* Change the text color as needed */
+}
+
+.dropdown-content a:hover {
+    background-color: #f9fafb; /* Change the hover background color as needed */
+}
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .usrnavbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        height: 40px;
+    }
+
+    .usrnav-logo {
+        margin-bottom: 20px;
+    }
+    .usrnav-search{
+        visibility: hidden;
+    }
+    .usrnavbar-end{
+        visibility: hidden;
+    }
+    .usrnavbar-center{
+        visibility: hidden;
+    }
+}
+
+.nav-addto{
+    color: black;
+}
+.usernav-btn{
+    margin-right: 30px;
+    height: 26px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(230, 8, 156);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.usernav-btn:hover{
+    background-color: rgb(167, 167, 167);
+}
+.nav-cart-count{
+    width: 17px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -24px;
+    margin-left: 20px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+
+}
+
+.sel-nav{
+    width: 230px;
+}
